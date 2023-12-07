@@ -10,7 +10,7 @@
 Get presetup Vitis Virtual Machine from course TA or setup following toolchains yourself.
 * Ubuntu 20.04+ and Xilinx Vitis
 * GTKWave and RISC-V GCC Toolchains
-```console
+```sh
 sudo apt update
 sudo apt install gtkwave git -y
 sudo wget -O /tmp/riscv32-unknown-elf.gcc-12.1.0.tar.gz https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz
@@ -23,7 +23,7 @@ source ~/.bashrc
 ## Run this code
 ```sh
 git clone https://github.com/edwardchang9/2023-FALL-NYCU-SOC-LAB4-1
-cd ~/caravel-soc_fpga-lab/lab-exmem-fir/testbench/counter_la_fir
+cd ~/2023-FALL-NYCU-SOC-LAB4-1/testbench/counter_la_fir/
 source run_clean
 source run_sim
 ```
